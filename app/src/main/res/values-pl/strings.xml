@@ -26,36 +26,48 @@
     <string name="bookmark_deleted">Usunięto zakładkę.</string>
     <string name="bookmark_added_toast">Dodano zakładkę \"%s\" w %s.</string>
     <plurals name="tracks_deleted">
+        <item quantity="zero">Usunięto %d ścieżek dźwiękowych.</item>
         <item quantity="one">Usunięto %d ścieżkę dźwiękową.</item>
         <item quantity="few">Usunięto %d ścieżki dźwiękowe.</item>
-        <item quantity="other">Usunięto %d ścieżek dźwiękowych.</item>
+        <item quantity="many">Usunięto %d ścieżek dźwiękowych.</item>
+        <item quantity="other">Usunięto %d ścieżki dźwiękowej.</item>
     </plurals>
     <plurals name="tracks_removed_from_db">
+        <item quantity="zero">Usunięto %d ścieżek dźwiękowych z biblioteki.</item>
         <item quantity="one">Usunięto %d ścieżkę dźwiękową z biblioteki.</item>
         <item quantity="few">Usunięto %d ścieżki dźwiękowe z biblioteki.</item>
-        <item quantity="other">Usunięto %d ścieżek dźwiękowych z biblioteki.</item>
+        <item quantity="many">Usunięto %d ścieżek dźwiękowych z biblioteki.</item>
+        <item quantity="other">Usunięto %d ścieżki dźwiękowej z biblioteki.</item>
     </plurals>
     <plurals name="quant_albums">
+        <item quantity="zero">%d albumów</item>
         <item quantity="one">%d album</item>
         <item quantity="few">%d albumy</item>
-        <item quantity="other">%d albumów</item>
+        <item quantity="many">%d albumów</item>
+        <item quantity="other">%d albumu</item>
     </plurals>
     <plurals name="quant_tracks">
+        <item quantity="zero">%d ścieżek dźwiękowych</item>
         <item quantity="one">%d ścieżka dźwiękowa</item>
         <item quantity="few">%d ścieżki dźwiękowe</item>
-        <item quantity="other">%d ścieżek dźwiękowych</item>
+        <item quantity="many">%d ścieżek dźwiękowych</item>
+        <item quantity="other">%d ścieżki dźwiękowej</item>
     </plurals>
     <!-- First %s = "x albums" (quant_albums), second %s = "x tracks" (quant_tracks) -->
     <string name="album_and_tracks_deleted">Usunięto %s i %s.</string>
     <plurals name="albums_removed_from_db">
+        <item quantity="zero">Usunięto %d albumów z biblioteki.</item>
         <item quantity="one">Usunięto %d album z biblioteki.</item>
         <item quantity="few">Usunięto %d albumy z biblioteki.</item>
-        <item quantity="other">Usunięto %d albumów z biblioteki.</item>
+        <item quantity="many">Usunięto %d albumów z biblioteki.</item>
+        <item quantity="other">Usunięto %d albumu z biblioteki.</item>
     </plurals>
     <plurals name="directories_removed_from_db">
+        <item quantity="zero">Usunięto %d katalogów z biblioteki.</item>
         <item quantity="one">Usunięto %d katalog z biblioteki.</item>
         <item quantity="few">Usunięto %d katalogi z biblioteki.</item>
-        <item quantity="other">Usunięto %d katalogów z biblioteki.</item>
+        <item quantity="many">Usunięto %d katalogów z biblioteki.</item>
+        <item quantity="other">Usunięto %d katalogu z biblioteki.</item>
     </plurals>
     <string name="cannot_mark_as_not_started">Nie można oznaczyć aktualnie odtwarzanego utworu jako nierozpoczęty.</string>
     <string name="cannot_mark_as_completed">Nie można oznaczyć aktualnie odtwarzanego utworu jako ukończony.</string>
@@ -129,10 +141,13 @@
     <string name="mark_as_not_started">Oznacz jako nie rozpoczęty</string>
     <string name="mark_as_completed">Oznacz jako ukończony</string>
     <plurals name="items_selected">
+        <item quantity="zero">%d zaznaczone/ych</item>
         <item quantity="one">%d zaznaczona/y</item>
-        <item quantity="other">%d zaznaczone/ych</item>
+        <item quantity="few">%d zaznaczone/ych</item>
+        <item quantity="many">%d zaznaczonych</item>
+        <item quantity="other">%d zaznaczona/ych</item>
     </plurals>
-    <string name="mark_all_as_not_started">Oznacz wszystkie ścieżki dźwiękowe jako nie rozpoczęte</string>
+    <string name="mark_all_as_not_started">Oznacz wszystkie ścieżki dźwiękowe jako nierozpoczęte</string>
     <string name="mark_all_as_completed">Oznacz wszystkie ścieżki dźwiękowe jako ukończone</string>
     <string name="playback_speed">Prędkość odtwarzania</string>
     <string name="about_contributors">Aby uzyskać listę współtwórców, odwiedź</string>
@@ -152,19 +167,31 @@
     <string name="dialog_msg_delete">Usuń</string>
     <string name="dialog_msg_goto">Wprowadź czas, do którego chcesz skoczyć</string>
     <plurals name="dialog_msg_delete_album">
+        <item quantity="zero">Czy na pewno chcesz usunąć wybrane katalogi i ich zawartość?</item>
         <item quantity="one">Czy na pewno chcesz usunąć wybrany katalog i jego zawartość?</item>
+        <item quantity="few">Czy na pewno chcesz usunąć wybrane katalogi i ich zawartość?</item>
+        <item quantity="many">Czy na pewno chcesz usunąć wybrane katalogi i ich zawartość?</item>
         <item quantity="other">Czy na pewno chcesz usunąć wybrane katalogi i ich zawartość?</item>
     </plurals>
     <plurals name="dialog_msg_remove_album_from_db">
+        <item quantity="zero">Czy na pewno chcesz usunąć wybrane albumy i ich zawartość z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
         <item quantity="one">Czy na pewno chcesz usunąć wybrany album i jego zawartość z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
+        <item quantity="few">Czy na pewno chcesz usunąć wybrane albumy i ich zawartość z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
+        <item quantity="many">Czy na pewno chcesz usunąć wybrane albumy i ich zawartość z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
         <item quantity="other">Czy na pewno chcesz usunąć wybrane albumy i ich zawartość z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
     </plurals>
     <plurals name="dialog_msg_delete_audio">
+        <item quantity="zero">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe?</item>
         <item quantity="one">Czy na pewno chcesz usunąć wybraną ścieżkę dźwiękową?</item>
+        <item quantity="few">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe?</item>
+        <item quantity="many">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe?</item>
         <item quantity="other">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe?</item>
     </plurals>
     <plurals name="dialog_msg_remove_audio_from_db">
+        <item quantity="zero">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
         <item quantity="one">Czy na pewno chcesz usunąć wybraną ścieżkę dźwiękową z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
+        <item quantity="few">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
+        <item quantity="many">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
         <item quantity="other">Czy na pewno chcesz usunąć wybrane ścieżki dźwiękowe z biblioteki? Ta operacja zostanie wykonana tylko w przypadku plików, które nie istnieją już w systemie plików.</item>
     </plurals>
     <string name="dialog_msg_delete_bookmark">Usunąć tę zakładkę?</string>
